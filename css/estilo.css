@@ -1,0 +1,67 @@
+#fundo{
+  background-image: url(../Images/fundo.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: black;
+
+  
+}
+.container{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+margin-top:  50px;
+}
+#fotoPlayer{
+  width: 400px;
+  height: 500px;
+  margin-left: 8%;
+}
+#fotoComputer{
+  width: 400px;
+  height: 500px;
+  margin-right: 8%;
+}
+.container .botoes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#resultado{
+  margin-top: 90px;
+  font-size: 35px;
+  text-align: center;
+  align-items: center;
+  font-weight: bolder;
+}
+#btn{
+  position:relative;
+  margin-top: 10px;
+  font-size: 20px;
+  height: 40px;
+  width: 100px;
+  text-align: center;
+}
+.container .placar{
+ display: flex;
+ flex-direction: row;
+
+}
+.container .placar .pontosJogador{
+  margin-right:100px ;
+  font-size:30px;
+  font-weight: bolder;
+}
+.container .placar .pontosComputador{
+  margin-left:100px ;
+  font-size:30px;
+  font-weight: bolder;
+}
+.score{
+  text-align: center;
+  font-size: 35px;
+  font-weight: bolder;
+}

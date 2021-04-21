@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <header>
+    <title>Jokenpo</title>
+    <link rel="stylesheet" href="css/estilo.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+  </header>
+
+  <body id="fundo">
+    <div class="container">
+      <img id="fotoPlayer" src="Images/verso.jpg" />
+      <div class="botoes">
+        <p id="resultado">Escolha sua Jogada</p>
+        <button id="btn" onclick="pptPlayer('pedra')">Pedra</button>
+        <button id="btn" onclick="pptPlayer('papel')">Papel</button>
+        <button id="btn" onclick="pptPlayer('tesoura')">Tesoura</button>
+        <div class="placar">
+          <div class="pontosJogador">
+            <h1>Jogador</h1>
+            <p class="score" id="playerScore">0</p>
+          </div>
+          <div class="pontosComputador">
+            <h1>Computador</h1>
+            <p class="score" id="computerScore">0</p>
+          </div>
+        </div>
+      </div>
+      <img id="fotoComputer" src="Images/verso.jpg" />
+    </div>
+    <script src="Script/script.js"></script>
+  </body>
+</html>
